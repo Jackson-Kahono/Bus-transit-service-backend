@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :mpesas
   resources :payments
   resources :stations
   resources :buses
